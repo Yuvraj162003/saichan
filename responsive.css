@@ -1,0 +1,115 @@
+@media (max-width:480px){
+   /*nav bar*/
+   ul{
+     
+         transition: all 0.5s;
+   
+   }
+    .navbar {
+        height: 75px;
+      
+    }
+    .logo img{
+   height: 75px;
+   width: 200px;
+   margin-left: 10px;
+   margin-top: 5px;
+    }
+     /*home seection*/
+     #home{
+        height: 100vh;
+        margin: auto;
+     }
+     .home-main{
+        margin-top: -10px;
+        
+    }
+     .home-text h1{
+       margin-bottom: 250px;
+        font-size: 23px;
+        justify-content: center;
+        margin-left: -70px;
+    }
+    .home-text h1 span{
+        color: white;
+        font-size: 45px;
+     }
+      /*type writer*/
+
+      .type{
+       margin-top: -260px;
+       margin-left: -70px;
+    }
+    .type h2{
+        font-size: 25px;
+    }
+    .typewriter {
+        margin-top: 7px;
+       margin-left:10px;
+       font-size: 21px;
+    }
+    .home-text p{
+        font-size: 19px;
+        margin-left: -70px;
+        font-weight: 500;
+    }
+    .home-img {
+       margin-left: -700px;
+       margin-top: 300px;
+       height: 38vh;
+       width: 38vh;
+    }
+    .home-img img{
+        height: 48vh;
+       width: 34vh;
+       margin-top: -70px;
+    }
+    .social-media{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* service */
+    #service{
+      height: 335vh;
+    }
+    .service-text h3{
+      font-size: 23px;
+    }
+   
+      .service-text h2{
+          font-size: 32px;
+        }
+        .service-text span{
+          font-size: 45px;
+        }
+        .service-text h6{
+          font-size: 15px;
+        }
+        .service{  
+           display: grid;
+            grid-template-columns: repeat(1, 1fr);
+         }
+         .service .our{
+            height: 29vh;
+            width: 42vh;
+            margin-left: 80px;
+            
+         }
+         .our h1{
+            font-size: 14px;
+         }
+         .our p{
+            font-size: 15px;
+            margin-top: 50px;
+         }
+         .font{
+            height: 40px;
+            width: 40px;  
+         }
+         .service .our i{
+            font-size: 20px;
+             }
+
+}

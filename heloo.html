@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style type="text/css">
+    /* Reset default styles */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+    }
+    
+    .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+    
+    /* Navigation links */
+    .nav-links {
+    list-style: none;
+    display: flex;
+    }
+    
+    .nav-links li {
+    margin: 0 15px;
+    }
+    
+    .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    }
+    
+    /* Hamburger menu */
+    .hamburger {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .nav-links.active {
+    display: flex;
+    }
+    
+    .nav-links li {
+    margin: 15px 0;
+    }
+    
+    .hamburger {
+    display: block;
+    }
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MyWebsite</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    </nav>
+<script src="script.js"></script>
+
+
+</body>
+</html>
